@@ -11,6 +11,7 @@ public class Main{
 
         IPv4 ohe = new IPv4(one);
         IPv4 tw = new IPv4(two);
+        IPv4 three = new IPv4("192.168.12.111");
 
         System.out.println(ohe.printIPBin());
         System.out.println(ohe.printIPDec());
@@ -19,6 +20,16 @@ public class Main{
 
         System.out.println(tw.printIPBin());
         System.out.println(tw.printIPDec());
+        System.out.println(three.printDecBin());
+
+        System.out.println(three.printIPBin());
+        System.out.println(three.printIPDec());
+
+
+
+
+
+
 
     }
 
